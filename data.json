@@ -1,0 +1,37 @@
+[
+  {"area":"Central / City", "chapter":"Champions", "brand":"EC Coffee Bar", "cuisine":"Café", "owner":"Tony Chin", "location":"Clarke Quay — 40 Carpenter St"},
+  {"area":"Central / City", "chapter":"Venus", "brand":"Asia Grand Restaurant", "cuisine":"Chinese / Cantonese", "owner":"Yvonne Chau", "location":"City Hall — Fairmont Singapore, 252 North Bridge Rd"},
+  {"area":"Central / City", "chapter":"Lighthouse", "brand":"Coze+ Art Jamming Café", "cuisine":"Café", "owner":"Rachel Hon", "location":"Lavender — 803 King George's Ave"},
+  {"area":"Central / City", "chapter":"Action", "brand":"Lao Sichuan 老四川", "cuisine":"Sichuan Cuisine", "owner":"Lai Wenguang", "location":"Jalan Sultan — 83 Jalan Sultan"},
+  {"area":"Central / City", "chapter":"Vantage", "brand":"Tanoke", "cuisine":"Modern Japanese", "owner":"Ying", "location":"Bugis / Purvis St — 7 Purvis St"},
+  {"area":"Central / City", "chapter":"Synergy", "brand":"Whiskdom Café", "cuisine":"Café", "owner":"Fiona Loh", "location":"Chinatown — 15 Smith St"},
+  {"area":"Central / City", "chapter":"Synergy", "brand":"Moon Chay", "cuisine":"Vegetarian Restaurant", "owner":"Julia Nguyen", "location":"Bugis — Fortune Centre, 190 Middle Rd"},
+  {"area":"Central / City", "chapter":"Zenith", "brand":"Dian Xiao Er", "cuisine":"Chinese Cuisine", "owner":"Samuel Yik", "location":"City Square Mall — 180 Kitchener Rd *"},
+  {"area":"Central / City", "chapter":"Brilliant", "brand":"Luo Lao Ma", "cuisine":"—", "owner":"Howard Jiang", "location":"30 Prinsep St, #01-02, Singapore 188647"},
+  {"area":"Central / City", "chapter":"Amazing", "brand":"MEET 2 Bar & Res", "cuisine":"Bar & Restaurant", "owner":"Amanda Bai", "location":"Suntec City — 3 Temasek Blvd, #01-602/603, Tower 3 & 4"},
+
+  {"area":"West", "chapter":"Champions", "brand":"Ristorante Pietrasanta", "cuisine":"Italian", "owner":"Niccolo Bertolini", "location":"one-north — 1 Fusionopolis Way"},
+  {"area":"West", "chapter":"Alliance", "brand":"5 Senses Bistro", "cuisine":"Bistro / Western", "owner":"Kah Yung Chong (CY)", "location":"Buona Vista — The Star Vista, 1 Vista Exchange Green"},
+  {"area":"West", "chapter":"Synergy", "brand":"Goro Japanese Cuisine", "cuisine":"Japanese Cuisine", "owner":"Breex Lee", "location":"Holland Drive — 43 Holland Dr"},
+  {"area":"West", "chapter":"Synergy", "brand":"Ru Ji Kitchen", "cuisine":"Fishball", "owner":"Daniel Lee", "location":"Holland Drive — 44 Holland Drive Market & Food Centre"},
+  {"area":"West", "chapter":"Synergy", "brand":"Chocobar Bistro", "cuisine":"Bar", "owner":"David Chong", "location":"Jurong East — 2 Venture Dr"},
+
+  {"area":"East", "chapter":"Champions", "brand":"Vatan Se", "cuisine":"Indian", "owner":"Amit Bhatnagar", "location":"Tanjong Katong — 368 Tanjong Katong Rd"},
+  {"area":"East", "chapter":"Champions", "brand":"Roast Paradise", "cuisine":"Roast Food", "owner":"Kai Koh", "location":"Old Airport Road — 51 Old Airport Rd"},
+  {"area":"East", "chapter":"Champions", "brand":"Flips and Dips", "cuisine":"Western", "owner":"Ephraim Leow", "location":"Paya Lebar — Paya Lebar Square, 60 Paya Lebar Rd"},
+  {"area":"East", "chapter":"Givers", "brand":"D'Legacy", "cuisine":"Modern Eurasian", "owner":"Claudine", "location":"Tampines — 446 Tampines St 42"},
+  {"area":"East", "chapter":"Zenith", "brand":"Cheng Ji Seafood", "cuisine":"Seafood", "owner":"Cindy Dai", "location":"Siglap — 891 East Coast Rd"},
+  {"area":"East", "chapter":"Synergy", "brand":"Three's A Crowd", "cuisine":"Ice Cream Café", "owner":"Yit Tat Ang", "location":"Tampines — 802 Tampines Ave 4"},
+
+  {"area":"North / North-East", "chapter":"Champions", "brand":"The White Tiffin", "cuisine":"Local", "owner":"Raymond Tan", "location":"Woodlands — Woods Square, 6 Woodlands Sq"},
+  {"area":"North / North-East", "chapter":"Ascend", "brand":"13 Miles", "cuisine":"Halal Fusion", "owner":"Marcus Du", "location":"Sembawang — 596B Sembawang Rd *"},
+  {"area":"North / North-East", "chapter":"Vantage", "brand":"Tachinomiya", "cuisine":"Japanese Izakaya", "owner":"Ying", "location":"Hougang — 211 Hougang St 21"},
+  {"area":"North / North-East", "chapter":"Synergy", "brand":"Hanwoori Korean Restaurant", "cuisine":"Korean", "owner":"Kim Joy", "location":"Serangoon Gardens — 76 Serangoon Garden Way"},
+  {"area":"North / North-East", "chapter":"Synergy", "brand":"Namtown", "cuisine":"Halal Vietnamese", "owner":"Winnie Le", "location":"Yishun — Blk 925 Yishun Central 1 *"},
+  {"area":"North / North-East", "chapter":"Synergy", "brand":"Tiramizus", "cuisine":"Tiramisu Café", "owner":"Joseph Quek", "location":"Upper Thomson — Thomson V Two, 11 Sin Ming Rd"},
+
+  {"area":"South / South-West", "chapter":"Nexus", "brand":"Treasure Paradise", "cuisine":"Chinese Cuisine", "owner":"Lydia Chang", "location":"Telok Blangah — SAFRA Mount Faber, 2 Telok Blangah Way"},
+
+  {"area":"Location TBC", "chapter":"Elite", "brand":"Vietnamese Restaurant", "cuisine":"Vietnamese", "owner":"Crystal", "location":"Brand / location TBC"},
+  {"area":"Location TBC", "chapter":"Synergy", "brand":"Legendary Fisherman's", "cuisine":"Chinese Zi Char", "owner":"Shi Liang Tan", "location":"Location TBC"}
+]
