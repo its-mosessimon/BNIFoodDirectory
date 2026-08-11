@@ -1,91 +1,81 @@
-# BNI F&B Directory
+[README.md](https://github.com/user-attachments/files/30922083/README.md)# BNI F&B Directory (v3 — halal status + full master list)
 
-Static referral-partner directory for BNI F&B members, grouped by area, with
-Google Maps links on every address. No backend, no build step — just static
-files served by Vercel.
+## What changed from v2
 
-## Files
+- Every listing now has a `halal` field: `"HALAL ✓"`, `"HALAL ✓*"` (hotel/
+  food-operation certification context), `"MUSLIM-OWNED ✓"` (not
+  automatically MUIS-certified — shown as a distinct tag from HALAL, not
+  merged into it), `"NON-HALAL"`, or `"Not verified"`.
+- Halal badge renders on every card *except* "Not verified" — showing a
+  badge for "unknown" would read as a claim either way, so those stay quiet.
+- New **"🕌 Halal Only" toggle** next to search — filters to HALAL ✓ and
+  MUSLIM-OWNED ✓ entries only.
+- `phone` parsing now also handles `"TBC"` as a placeholder (grayed out, not
+  clickable) and multi-number formats like `"6816 3030 / WhatsApp 90924454"`
+  (renders both the main tel: link and a separate WhatsApp link for the alt
+  number).
+- 15 new brands/outlets added from the master list (Carousel, Flakyhaus,
+  Gui Zhou Grilled Fish, Master Zhu, Shan Yu Zong Hotpot, Cayenne's Cafe,
+  Mutiara Seafood, Raisugood By Emma's Kitchen, Fong Fu Food Industries,
+  wagyubeefsingapore, Royal Plaza on Scotts, and more).
 
-- `index.html` — page structure
-- `style.css` — all styling
-- `app.js` — search, area filtering, card rendering
-- `data.json` — **the directory listings. Edit this file to update the directory.**
-- `vercel.json` — hosting config (clean URLs)
+## ⚠️ One unresolved data conflict — check before you rely on this
 
-## Updating the directory
+**Givers → D'Legacy** appears twice in the source PDF with the same phone
+number but contradictory details:
+- Owner **Claudine**, halal status "Not verified" — *this is the version
+  currently in `data.json`*
+- Owner **Daryl Nonis**, halal status **NON-HALAL**
 
-Open `data.json` and add/edit/remove entries. Each listing looks like:
+I kept the Claudine version since it matches your earlier PDFs, but I can't
+tell if this is a business handover, a data-entry error, or two different
+people being conflated. Find the entry in `data.json` (search "D'Legacy")
+and correct it once you know which is right.
+
+Also silently resolved (formatting-only duplicates, not conflicts): merged
+duplicate rows for MasterMind Carousel, Prosperity Master Zhu, Blaze
+Cayenne's Cafe, and Synergy Mutiara Seafood — each appeared twice in the PDF
+with only punctuation or contact-format differences.
+
+## Deploying this update
+
+Same repo, same Vercel project — you're replacing files, not creating
+anything new. 4 files changed: `index.html`, `style.css`, `app.js`,
+`data.json`. (`vercel.json` and `.gitignore` are untouched.)
+
+### Option A — GitHub web UI
+1. Open your repo on github.com
+2. For each of the 4 changed files: click it → pencil (edit) icon → select
+   all, paste in the new version → commit to `main`
+3. Vercel redeploys automatically within ~30–60 seconds of your last commit
+
+### Option B — Git CLI
+```bash
+cd bni-fnb-directory        # your existing local clone
+git pull
+# replace index.html, style.css, app.js, data.json with the ones here
+git add index.html style.css app.js data.json
+git commit -m "v3: halal status tags + halal-only filter + full master list"
+git push
+```
+
+## Updating data going forward
+
+`data.json` only, same as before. New field shape:
 
 ```json
 {
   "area": "Central / City",
-  "chapter": "Champions",
-  "brand": "EC Coffee Bar",
-  "cuisine": "Café",
-  "owner": "Tony Chin",
-  "location": "Clarke Quay — 40 Carpenter St"
+  "chapter": "Ascend",
+  "brand": "13 Miles",
+  "cuisine": "Halal Fusion",
+  "owner": "Marcus Du",
+  "location": "Bugis / Kampong Glam — 749 North Bridge Rd",
+  "phone": "6022 1133",
+  "halal": "HALAL ✓"
 }
 ```
 
-Notes:
-- `area` must be one of: `Central / City`, `West`, `East`, `North / North-East`,
-  `South / South-West`, `Location TBC` (these drive the filter chips and section
-  order — add a new value in `AREA_ORDER` at the top of `app.js` if you introduce
-  a new area).
-- `location` format is `Neighbourhood — Full address`. The part before the em
-  dash (`—`) is shown as the bold heading on the card; the part after becomes
-  the clickable Google Maps link.
-- If the real address isn't known yet, write `Location TBC` — the app
-  recognizes "TBC" and skips generating a (broken) maps link for it.
-- Save the file as valid JSON (commas between entries, no trailing comma on
-  the last one) — a JSON validator (e.g. jsonlint.com) catches typos fast.
+Valid `halal` values: `"HALAL ✓"`, `"HALAL ✓*"`, `"MUSLIM-OWNED ✓"`,
+`"NON-HALAL"`, `"Not verified"`. Anything else won't render a badge.
 
-## Deploy: GitHub → Vercel
-
-**1. Push this folder to GitHub**
-
-```bash
-cd bni-fnb-directory
-git init
-git add .
-git commit -m "Initial BNI F&B directory"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-(Create the empty repo on GitHub first at github.com/new — don't initialize it
-with a README, or the push above will conflict.)
-
-**2. Connect Vercel**
-
-1. Go to [vercel.com/new](https://vercel.com/new)
-2. Import the GitHub repo you just pushed
-3. Framework preset: **Other** (it's static — no build command needed)
-4. Click **Deploy**
-
-Vercel will give you a live URL (e.g. `bni-fnb-directory.vercel.app`) within
-about a minute.
-
-**3. Future updates**
-
-Every time you edit `data.json` (or any file) and push to `main`, Vercel
-redeploys automatically — no dashboard steps needed.
-
-```bash
-git add data.json
-git commit -m "Add new referral partner"
-git push
-```
-
-## Local preview (optional)
-
-Any static server works, e.g.:
-
-```bash
-npx serve .
-```
-
-Then open the printed localhost URL. (Opening `index.html` directly via
-`file://` won't work — the `fetch('./data.json')` call requires an actual
-HTTP server.)
