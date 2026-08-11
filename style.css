@@ -42,6 +42,35 @@
     padding-left:10px;
   }
   h1 span{color:var(--ink-soft);font-weight:600;text-transform:none;font-size:14px;display:block;margin-top:4px;letter-spacing:0;font-family:'Inter',sans-serif;}
+
+  #topCredits{
+    margin-top:12px;
+    padding-top:10px;
+    border-top:1px dashed var(--line);
+    font-family:'Inter',sans-serif;
+    font-size:11.5px;
+    color:var(--ink-soft);
+  }
+  #topCredits .credit-line{line-height:1.8;}
+  #topCredits strong{color:var(--ink);font-weight:600;}
+  .credit-link{color:var(--ink-soft);text-decoration:none;border-bottom:1px dotted var(--ink-soft);}
+  .credit-link:active{opacity:0.7;}
+  .credit-wa{
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    margin-left:8px;
+    padding:2px 9px;
+    border-radius:12px;
+    background:var(--wa-green);
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    font-size:10.5px;
+    white-space:nowrap;
+  }
+  .credit-wa:active{opacity:0.8;}
+
   .search-row{margin-top:14px;display:flex;gap:8px;}
   #search{
     flex:1;padding:11px 14px;border:1.5px solid var(--line);border-radius:8px;
