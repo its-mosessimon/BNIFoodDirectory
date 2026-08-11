@@ -8,6 +8,12 @@
     --bni-red:#C8202E;
     --bni-red-dark:#8C1620;
     --wa-green:#1F8A4C;
+    --halal-green:#1F7A4C;
+    --halal-green-bg:#E7F3EC;
+    --muslim-teal:#0E7C86;
+    --muslim-teal-bg:#E4F2F3;
+    --non-halal:#8A8478;
+    --non-halal-bg:#EFEDE7;
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   body{
@@ -42,6 +48,13 @@
     font-size:15px;font-family:'Inter',sans-serif;background:var(--card);color:var(--ink);outline:none;
   }
   #search:focus{border-color:var(--bni-red);}
+  .halal-toggle{
+    flex:0 0 auto;display:flex;align-items:center;gap:6px;padding:0 14px;
+    border:1.5px solid var(--halal-green);border-radius:8px;background:var(--card);
+    font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;color:var(--halal-green);
+    cursor:pointer;user-select:none;white-space:nowrap;
+  }
+  .halal-toggle.active{background:var(--halal-green);color:#fff;}
   .chip-scroll{
     margin-top:12px;display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;
     -webkit-overflow-scrolling:touch;scrollbar-width:none;
@@ -86,11 +99,19 @@
     letter-spacing:0.4px;color:var(--ink);margin-bottom:4px;text-decoration:none;display:block;
   }
   .location-line.linked{color:var(--bni-red-dark);border-bottom:1px dotted var(--bni-red-dark);width:fit-content;}
-  .card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:4px;}
+  .card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:4px;flex-wrap:wrap;}
+  .tag-group{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;}
   .chapter-tag{
     flex:0 0 auto;font-family:'Inter',sans-serif;font-size:11px;font-weight:500;color:var(--ink-soft);
     background:var(--bg);border:1px solid var(--line);padding:2px 9px;border-radius:12px;white-space:nowrap;
   }
+  .halal-tag{
+    flex:0 0 auto;font-family:'Inter',sans-serif;font-size:11px;font-weight:600;
+    padding:2px 9px;border-radius:12px;white-space:nowrap;
+  }
+  .halal-tag.halal{color:var(--halal-green);background:var(--halal-green-bg);border:1px solid var(--halal-green);}
+  .halal-tag.muslim{color:var(--muslim-teal);background:var(--muslim-teal-bg);border:1px solid var(--muslim-teal);}
+  .halal-tag.non-halal{color:var(--non-halal);background:var(--non-halal-bg);border:1px solid var(--line);}
   .meta-row{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--ink);line-height:1.7;}
   .meta-row b{font-weight:600;color:var(--ink-soft);font-weight:500;}
   .maps-link{color:var(--bni-red-dark);text-decoration:none;border-bottom:1px dotted var(--bni-red-dark);}
