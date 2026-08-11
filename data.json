@@ -6,16 +6,8 @@
     "cuisine": "Halal Fusion",
     "owner": "Marcus Du",
     "location": "Bugis / Kampong Glam — 749 North Bridge Rd",
-    "phone": "6022 1133"
-  },
-  {
-    "area": "Central / City",
-    "chapter": "Champions",
-    "brand": "EC Coffee Bar",
-    "cuisine": "Café",
-    "owner": "Tony Chin",
-    "location": "Clarke Quay — 40 Carpenter St #01-01",
-    "phone": "9365 6626"
+    "phone": "6022 1133",
+    "halal": "HALAL ✓"
   },
   {
     "area": "Central / City",
@@ -24,7 +16,18 @@
     "cuisine": "Chinese / Cantonese",
     "owner": "Yvonne Chau",
     "location": "Fairmont Singapore — 252 North Bridge Rd #03-22B",
-    "phone": "6887 0010"
+    "phone": "6887 0010",
+    "halal": "Not verified"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "MasterMind",
+    "brand": "Carousel",
+    "cuisine": "Halal Buffet / International Cuisine",
+    "owner": "Karlson Kim",
+    "location": "Royal Plaza on Scotts — 25 Scotts Rd, Singapore 228220",
+    "phone": "6589 7799",
+    "halal": "HALAL ✓"
   },
   {
     "area": "Central / City",
@@ -33,52 +36,8 @@
     "cuisine": "Café",
     "owner": "Rachel Hon",
     "location": "803 King George's Ave #01-242/244",
-    "phone": "8388 6500"
-  },
-  {
-    "area": "Central / City",
-    "chapter": "Action",
-    "brand": "Lao Sichuan 老四川",
-    "cuisine": "Sichuan Cuisine",
-    "owner": "Lai Wenguang",
-    "location": "83 Jalan Sultan",
-    "phone": "8666 6028"
-  },
-  {
-    "area": "Central / City",
-    "chapter": "Vantage",
-    "brand": "Tanoke",
-    "cuisine": "Modern Japanese",
-    "owner": "Ying",
-    "location": "7 Purvis St #02-00",
-    "phone": "9106 3378"
-  },
-  {
-    "area": "Central / City",
-    "chapter": "Synergy",
-    "brand": "Whiskdom Café",
-    "cuisine": "Café",
-    "owner": "Fiona Loh",
-    "location": "Chinatown — 15 Smith St",
-    "phone": "8227 7036"
-  },
-  {
-    "area": "Central / City",
-    "chapter": "Synergy",
-    "brand": "Whiskdom Café",
-    "cuisine": "Café",
-    "owner": "Fiona Loh",
-    "location": "Orchard Central — 181 Orchard Rd #04-22",
-    "phone": "No public phone listed"
-  },
-  {
-    "area": "Central / City",
-    "chapter": "Synergy",
-    "brand": "Moon Chay",
-    "cuisine": "Vegetarian Restaurant",
-    "owner": "Julia Nguyen",
-    "location": "Fortune Centre — 190 Middle Rd #02-27/28",
-    "phone": "8197 8564"
+    "phone": "8388 6500",
+    "halal": "Not verified"
   },
   {
     "area": "Central / City",
@@ -87,7 +46,8 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "City Square Mall — 180 Kitchener Rd #03-37",
-    "phone": "6970 0612"
+    "phone": "6970 0612",
+    "halal": "Not verified"
   },
   {
     "area": "Central / City",
@@ -96,7 +56,48 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "Marina Square — 6 Raffles Blvd #02-200",
-    "phone": "6337 1928"
+    "phone": "6337 1928",
+    "halal": "Not verified"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "Champions",
+    "brand": "EC Coffee Bar",
+    "cuisine": "Café",
+    "owner": "Tony Chin",
+    "location": "Clarke Quay — 40 Carpenter St #01-01",
+    "phone": "9365 6626",
+    "halal": "Not verified"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "Esprit",
+    "brand": "Flakyhaus",
+    "cuisine": "Halal-French Bakery",
+    "owner": "Bernard Lin",
+    "location": "150 Towner Road #01-04, Singapore 320150",
+    "phone": "9181 8177",
+    "halal": "HALAL ✓"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "Apex",
+    "brand": "Gui Zhou Grilled Fish",
+    "cuisine": "Chinese / Grilled Fish",
+    "owner": "Zhu Shang Tao",
+    "location": "8 Wilkie Road #01-23, Wilkie Edge, Singapore 228095",
+    "phone": "TBC",
+    "halal": "NON-HALAL"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "Action",
+    "brand": "Lao Sichuan 老四川",
+    "cuisine": "Sichuan Cuisine",
+    "owner": "Lai Wenguang",
+    "location": "83 Jalan Sultan",
+    "phone": "8666 6028",
+    "halal": "Not verified"
   },
   {
     "area": "Central / City",
@@ -105,7 +106,18 @@
     "cuisine": "Sichuan Cuisine",
     "owner": "Howard Jiang",
     "location": "30 Prinsep St #01-02",
-    "phone": "8099 3148"
+    "phone": "8099 3148",
+    "halal": "Not verified"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "Prosperity",
+    "brand": "Master Zhu",
+    "cuisine": "Guizhou Cuisine / Chinese Cuisine",
+    "owner": "Eve Zhu",
+    "location": "The Noble Hotel — 407 Jalan Besar, Singapore 209012",
+    "phone": "TBC",
+    "halal": "Not verified"
   },
   {
     "area": "Central / City",
@@ -114,7 +126,48 @@
     "cuisine": "Bar & Restaurant",
     "owner": "Amanda Bai",
     "location": "Suntec City — 3 Temasek Blvd #01-602/603",
-    "phone": "9089 8000"
+    "phone": "9089 8000",
+    "halal": "Not verified"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "Synergy",
+    "brand": "Moon Chay",
+    "cuisine": "Vegetarian Restaurant",
+    "owner": "Julia Nguyen",
+    "location": "Fortune Centre — 190 Middle Rd #02-27/28",
+    "phone": "8197 8564",
+    "halal": "Not verified"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "MasterMind",
+    "brand": "Royal Plaza on Scotts",
+    "cuisine": "Hotel / Hospitality",
+    "owner": "Karlson Kim",
+    "location": "25 Scotts Rd, Singapore 228220",
+    "phone": "6737 7966",
+    "halal": "HALAL ✓*"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "Apex",
+    "brand": "Shan Yu Zong Hotpot",
+    "cuisine": "Chinese Hotpot",
+    "owner": "Liu Zhe Chao",
+    "location": "1 Park Road #06-01/02, People's Park Complex, Singapore 059108",
+    "phone": "TBC",
+    "halal": "NON-HALAL"
+  },
+  {
+    "area": "Central / City",
+    "chapter": "Vantage",
+    "brand": "Tanoke",
+    "cuisine": "Modern Japanese",
+    "owner": "Ying",
+    "location": "7 Purvis St #02-00",
+    "phone": "9106 3378",
+    "halal": "Not verified"
   },
   {
     "area": "Central / City",
@@ -123,43 +176,28 @@
     "cuisine": "Local",
     "owner": "Raymond Tan",
     "location": "Esplanade Xchange — 90 Bras Basah Rd #B1-06/45",
-    "phone": "8309 4349 (WhatsApp)"
+    "phone": "8309 4349 (WhatsApp)",
+    "halal": "Not verified"
   },
   {
-    "area": "West",
-    "chapter": "Champions",
-    "brand": "Ristorante Pietrasanta",
-    "cuisine": "Italian",
-    "owner": "Niccolo Bertolini",
-    "location": "one-north — 1 Fusionopolis Way #01-08",
-    "phone": "9863 9253"
-  },
-  {
-    "area": "West",
-    "chapter": "Alliance",
-    "brand": "5 Senses Bistro",
-    "cuisine": "Bistro / Western",
-    "owner": "Kah Yung Chong (CY)",
-    "location": "The Star Vista — 1 Vista Exchange Green #02-21",
-    "phone": "6339 1435"
-  },
-  {
-    "area": "West",
+    "area": "Central / City",
     "chapter": "Synergy",
-    "brand": "Goro Japanese Cuisine",
-    "cuisine": "Japanese Cuisine",
-    "owner": "Breex Lee",
-    "location": "43 Holland Dr #01-49",
-    "phone": "6358 3959"
+    "brand": "Whiskdom Café",
+    "cuisine": "Café",
+    "owner": "Fiona Loh",
+    "location": "Chinatown — 15 Smith St",
+    "phone": "8227 7036",
+    "halal": "Not verified"
   },
   {
-    "area": "West",
+    "area": "Central / City",
     "chapter": "Synergy",
-    "brand": "Ru Ji Kitchen",
-    "cuisine": "Fishball",
-    "owner": "Daniel Lee",
-    "location": "44 Holland Dr Market #02-28/29",
-    "phone": "9435 0820"
+    "brand": "Whiskdom Café",
+    "cuisine": "Café",
+    "owner": "Fiona Loh",
+    "location": "Orchard Central — 181 Orchard Rd #04-22",
+    "phone": "No public phone listed",
+    "halal": "Not verified"
   },
   {
     "area": "West",
@@ -168,16 +206,8 @@
     "cuisine": "Bar",
     "owner": "David Chong",
     "location": "2 Venture Dr #01-41",
-    "phone": "8171 9211"
-  },
-  {
-    "area": "West",
-    "chapter": "Synergy",
-    "brand": "Whiskdom Café",
-    "cuisine": "Café",
-    "owner": "Fiona Loh",
-    "location": "Galaxis — 1 Fusionopolis Pl #01-18/19",
-    "phone": "No public phone listed"
+    "phone": "8171 9211",
+    "halal": "Not verified"
   },
   {
     "area": "West",
@@ -186,7 +216,8 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "JEM — 50 Jurong Gateway Rd #03-08",
-    "phone": "6734 0813"
+    "phone": "6734 0813",
+    "halal": "Not verified"
   },
   {
     "area": "West",
@@ -195,52 +226,58 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "Jurong Point — 63 Jurong West Central 3 #B1-57",
-    "phone": "6792 6268"
+    "phone": "6792 6268",
+    "halal": "Not verified"
   },
   {
-    "area": "East",
-    "chapter": "Prosperity",
-    "brand": "XLX Seafood",
-    "cuisine": "Chinese Cuisine",
-    "owner": "Olivia Keng",
-    "location": "5 Guillemard Rd",
-    "phone": "9128 8978"
+    "area": "West",
+    "chapter": "Synergy",
+    "brand": "Goro Japanese Cuisine",
+    "cuisine": "Japanese Cuisine",
+    "owner": "Breex Lee",
+    "location": "43 Holland Dr #01-49",
+    "phone": "6358 3959",
+    "halal": "Not verified"
   },
   {
-    "area": "East",
+    "area": "West",
     "chapter": "Champions",
-    "brand": "Vatan Se",
-    "cuisine": "Indian",
-    "owner": "Amit Bhatnagar",
-    "location": "368 Tanjong Katong Rd",
-    "phone": "6440 4644"
+    "brand": "Ristorante Pietrasanta",
+    "cuisine": "Italian",
+    "owner": "Niccolo Bertolini",
+    "location": "one-north — 1 Fusionopolis Way #01-08",
+    "phone": "9863 9253",
+    "halal": "Not verified"
+  },
+  {
+    "area": "West",
+    "chapter": "Synergy",
+    "brand": "Ru Ji Kitchen",
+    "cuisine": "Fishball",
+    "owner": "Daniel Lee",
+    "location": "44 Holland Dr Market #02-28/29",
+    "phone": "9435 0820",
+    "halal": "Not verified"
+  },
+  {
+    "area": "West",
+    "chapter": "Synergy",
+    "brand": "Whiskdom Café",
+    "cuisine": "Café",
+    "owner": "Fiona Loh",
+    "location": "Galaxis — 1 Fusionopolis Pl #01-18/19",
+    "phone": "No public phone listed",
+    "halal": "Not verified"
   },
   {
     "area": "East",
-    "chapter": "Champions",
-    "brand": "Roast Paradise",
-    "cuisine": "Roast Food",
-    "owner": "Kai Koh",
-    "location": "Old Airport Road — 51 Old Airport Rd #01-121",
-    "phone": "9786 7396"
-  },
-  {
-    "area": "East",
-    "chapter": "Champions",
-    "brand": "Flips N Dips",
-    "cuisine": "Western",
-    "owner": "Ephraim Leow",
-    "location": "Paya Lebar Square — 60 Paya Lebar Rd #B1-51",
-    "phone": "9786 7396"
-  },
-  {
-    "area": "East",
-    "chapter": "Givers",
-    "brand": "D'Legacy",
-    "cuisine": "Modern Eurasian",
-    "owner": "Claudine",
-    "location": "446 Tampines St 42",
-    "phone": "8875 7522"
+    "chapter": "Blaze",
+    "brand": "Cayenne's Cafe",
+    "cuisine": "Muslim-owned Café",
+    "owner": "Calista Ae'sha Noor Azman",
+    "location": "SUTD — 8 Somapah Rd #01-204, Building 2, Singapore 487372",
+    "phone": "TBC",
+    "halal": "MUSLIM-OWNED ✓"
   },
   {
     "area": "East",
@@ -249,25 +286,18 @@
     "cuisine": "Seafood",
     "owner": "Cindy Dai",
     "location": "891 East Coast Rd",
-    "phone": "9694 1818"
+    "phone": "9694 1818",
+    "halal": "Not verified"
   },
   {
     "area": "East",
-    "chapter": "Synergy",
-    "brand": "Three's A Crowd",
-    "cuisine": "Ice Cream Café",
-    "owner": "Yit Tat Ang",
-    "location": "802 Tampines Ave 4 #01-11",
-    "phone": "6702 0700"
-  },
-  {
-    "area": "East",
-    "chapter": "Synergy",
-    "brand": "Whiskdom Café",
-    "cuisine": "Café",
-    "owner": "Fiona Loh",
-    "location": "30 Jalan Pari Burong",
-    "phone": "No public phone listed"
+    "chapter": "Givers",
+    "brand": "D'Legacy",
+    "cuisine": "Modern Eurasian",
+    "owner": "Claudine",
+    "location": "446 Tampines St 42",
+    "phone": "8875 7522",
+    "halal": "Not verified"
   },
   {
     "area": "East",
@@ -276,7 +306,8 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "Bedok Mall — 311 New Upper Changi Rd #01-71",
-    "phone": "6844 9266"
+    "phone": "6844 9266",
+    "halal": "Not verified"
   },
   {
     "area": "East",
@@ -285,7 +316,8 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "Downtown East — 1 Pasir Ris Cl #02-319",
-    "phone": "6970 2550"
+    "phone": "6970 2550",
+    "halal": "Not verified"
   },
   {
     "area": "East",
@@ -294,7 +326,58 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "Parkway Parade — 80 Marine Parade Rd #02-14",
-    "phone": "6250 2323"
+    "phone": "6250 2323",
+    "halal": "Not verified"
+  },
+  {
+    "area": "East",
+    "chapter": "Esprit",
+    "brand": "Flakyhaus",
+    "cuisine": "Halal-French Bakery",
+    "owner": "Bernard Lin",
+    "location": "954C Tampines St 96 #01-04, Singapore 523954",
+    "phone": "9181 8177",
+    "halal": "HALAL ✓"
+  },
+  {
+    "area": "East",
+    "chapter": "Champions",
+    "brand": "Flips N Dips",
+    "cuisine": "Western",
+    "owner": "Ephraim Leow",
+    "location": "Paya Lebar Square — 60 Paya Lebar Rd #B1-51",
+    "phone": "9786 7396",
+    "halal": "HALAL ✓"
+  },
+  {
+    "area": "East",
+    "chapter": "Synergy",
+    "brand": "Mutiara Seafood",
+    "cuisine": "Halal-certified Seafood",
+    "owner": "Aberdeen Madina",
+    "location": "Wisma Geylang Serai — 1 Engku Aman Turn #01-02 & #02-02/03, Singapore 408528",
+    "phone": "6816 3030 / WhatsApp 90924454",
+    "halal": "HALAL ✓"
+  },
+  {
+    "area": "East",
+    "chapter": "Esprit",
+    "brand": "Raisugood By Emma's Kitchen",
+    "cuisine": "Halal Sushibakes / Shepherd's Pie / Lasagna",
+    "owner": "Siti Raodah",
+    "location": "430 Upper Changi Road #01-15, Singapore 487048",
+    "phone": "8952 8943",
+    "halal": "HALAL ✓"
+  },
+  {
+    "area": "East",
+    "chapter": "Champions",
+    "brand": "Roast Paradise",
+    "cuisine": "Roast Food",
+    "owner": "Kai Koh",
+    "location": "Old Airport Road — 51 Old Airport Rd #01-121",
+    "phone": "9786 7396",
+    "halal": "Not verified"
   },
   {
     "area": "East",
@@ -303,7 +386,48 @@
     "cuisine": "Local",
     "owner": "Raymond Tan",
     "location": "Changi City Point — 5 Changi Business Park Central 1 #01-44",
-    "phone": "8309 4349 (WhatsApp)"
+    "phone": "8309 4349 (WhatsApp)",
+    "halal": "Not verified"
+  },
+  {
+    "area": "East",
+    "chapter": "Synergy",
+    "brand": "Three's A Crowd",
+    "cuisine": "Ice Cream Café",
+    "owner": "Yit Tat Ang",
+    "location": "802 Tampines Ave 4 #01-11",
+    "phone": "6702 0700",
+    "halal": "Not verified"
+  },
+  {
+    "area": "East",
+    "chapter": "Champions",
+    "brand": "Vatan Se",
+    "cuisine": "Indian",
+    "owner": "Amit Bhatnagar",
+    "location": "368 Tanjong Katong Rd",
+    "phone": "6440 4644",
+    "halal": "HALAL ✓"
+  },
+  {
+    "area": "East",
+    "chapter": "Synergy",
+    "brand": "Whiskdom Café",
+    "cuisine": "Café",
+    "owner": "Fiona Loh",
+    "location": "30 Jalan Pari Burong",
+    "phone": "No public phone listed",
+    "halal": "Not verified"
+  },
+  {
+    "area": "East",
+    "chapter": "Prosperity",
+    "brand": "XLX Seafood",
+    "cuisine": "Chinese Cuisine",
+    "owner": "Olivia Keng",
+    "location": "5 Guillemard Rd",
+    "phone": "9128 8978",
+    "halal": "Not verified"
   },
   {
     "area": "North / North-East",
@@ -312,70 +436,8 @@
     "cuisine": "Halal Fusion",
     "owner": "Marcus Du",
     "location": "596B Sembawang Rd",
-    "phone": "6481 6616"
-  },
-  {
-    "area": "North / North-East",
-    "chapter": "Champions",
-    "brand": "The White Tiffin",
-    "cuisine": "Local",
-    "owner": "Raymond Tan",
-    "location": "Woods Square — 6 Woodlands Sq #B2-01",
-    "phone": "8309 4349 (WhatsApp)"
-  },
-  {
-    "area": "North / North-East",
-    "chapter": "Champions",
-    "brand": "The White Tiffin",
-    "cuisine": "Local",
-    "owner": "Raymond Tan",
-    "location": "Toa Payoh HDB Hub — 480 Lor 6 Toa Payoh #01-12",
-    "phone": "8309 4349 (WhatsApp)"
-  },
-  {
-    "area": "North / North-East",
-    "chapter": "Vantage",
-    "brand": "Tachinomiya",
-    "cuisine": "Japanese Izakaya",
-    "owner": "Ying",
-    "location": "211 Hougang St 21 #01-285",
-    "phone": "8718 5388"
-  },
-  {
-    "area": "North / North-East",
-    "chapter": "Synergy",
-    "brand": "Hanwoori Korean Restaurant",
-    "cuisine": "Korean",
-    "owner": "Kim Joy",
-    "location": "76 Serangoon Garden Way",
-    "phone": "8181 7225"
-  },
-  {
-    "area": "North / North-East",
-    "chapter": "Synergy",
-    "brand": "Namtown",
-    "cuisine": "Halal Vietnamese",
-    "owner": "Winnie Le",
-    "location": "Blk 925 Yishun Central 1 #01-211",
-    "phone": "9819 3303"
-  },
-  {
-    "area": "North / North-East",
-    "chapter": "Synergy",
-    "brand": "Tiramizus / Tmizus",
-    "cuisine": "Tiramisu Café",
-    "owner": "Joseph Quek",
-    "location": "Thomson V TWO — 11 Sin Ming Rd #B3-09/10",
-    "phone": "9688 3101"
-  },
-  {
-    "area": "North / North-East",
-    "chapter": "Zenith",
-    "brand": "Dian Xiao Er",
-    "cuisine": "Chinese Cuisine",
-    "owner": "Samuel Yik",
-    "location": "The Seletar Mall — 33 Sengkang West Ave #B1-28",
-    "phone": "6288 6080"
+    "phone": "6481 6616",
+    "halal": "HALAL ✓"
   },
   {
     "area": "North / North-East",
@@ -384,7 +446,8 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "Hillion Mall — 17 Petir Rd #01-08",
-    "phone": "6265 2033"
+    "phone": "6265 2033",
+    "halal": "Not verified"
   },
   {
     "area": "North / North-East",
@@ -393,25 +456,98 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "Junction 8 — 9 Bishan Pl #B1-07",
-    "phone": "6684 0877"
+    "phone": "6684 0877",
+    "halal": "Not verified"
   },
   {
-    "area": "South / South-West",
-    "chapter": "Nexus",
-    "brand": "Treasure Paradise",
+    "area": "North / North-East",
+    "chapter": "Zenith",
+    "brand": "Dian Xiao Er",
     "cuisine": "Chinese Cuisine",
-    "owner": "Lydia Chang",
-    "location": "SAFRA Mount Faber — 2 Telok Blangah Way #01-09",
-    "phone": "8927 4494"
+    "owner": "Samuel Yik",
+    "location": "The Seletar Mall — 33 Sengkang West Ave #B1-28",
+    "phone": "6288 6080",
+    "halal": "Not verified"
   },
   {
-    "area": "South / South-West",
+    "area": "North / North-East",
+    "chapter": "Apex",
+    "brand": "Fong Fu Food Industries Pte Ltd",
+    "cuisine": "Food Manufacturing / F&B",
+    "owner": "Charlie Lim",
+    "location": "21 Mandai Estate #06-08, Singapore 729913",
+    "phone": "TBC",
+    "halal": "NON-HALAL"
+  },
+  {
+    "area": "North / North-East",
+    "chapter": "Synergy",
+    "brand": "Hanwoori Korean Restaurant",
+    "cuisine": "Korean",
+    "owner": "Kim Joy",
+    "location": "76 Serangoon Garden Way",
+    "phone": "8181 7225",
+    "halal": "Not verified"
+  },
+  {
+    "area": "North / North-East",
+    "chapter": "Synergy",
+    "brand": "Namtown",
+    "cuisine": "Halal Vietnamese",
+    "owner": "Winnie Le",
+    "location": "Blk 925 Yishun Central 1 #01-211",
+    "phone": "9819 3303",
+    "halal": "HALAL ✓"
+  },
+  {
+    "area": "North / North-East",
+    "chapter": "Vantage",
+    "brand": "Tachinomiya",
+    "cuisine": "Japanese Izakaya",
+    "owner": "Ying",
+    "location": "211 Hougang St 21 #01-285",
+    "phone": "8718 5388",
+    "halal": "Not verified"
+  },
+  {
+    "area": "North / North-East",
     "chapter": "Champions",
-    "brand": "The White Tiffin Fusion",
-    "cuisine": "Local / Fusion",
+    "brand": "The White Tiffin",
+    "cuisine": "Local",
     "owner": "Raymond Tan",
-    "location": "Hotel Faber Park — 448 Telok Blangah Rd #01-02",
-    "phone": "8060 5512"
+    "location": "Toa Payoh HDB Hub — 480 Lor 6 Toa Payoh #01-12",
+    "phone": "8309 4349 (WhatsApp)",
+    "halal": "Not verified"
+  },
+  {
+    "area": "North / North-East",
+    "chapter": "Champions",
+    "brand": "The White Tiffin",
+    "cuisine": "Local",
+    "owner": "Raymond Tan",
+    "location": "Woods Square — 6 Woodlands Sq #B2-01",
+    "phone": "8309 4349 (WhatsApp)",
+    "halal": "Not verified"
+  },
+  {
+    "area": "North / North-East",
+    "chapter": "Synergy",
+    "brand": "Tiramizus / Tmizus",
+    "cuisine": "Tiramisu Café",
+    "owner": "Joseph Quek",
+    "location": "Thomson V TWO — 11 Sin Ming Rd #B3-09/10",
+    "phone": "9688 3101",
+    "halal": "Not verified"
+  },
+  {
+    "area": "North / North-East",
+    "chapter": "Matrix",
+    "brand": "wagyubeefsingapore",
+    "cuisine": "Private Wagyu Dine-in (by reservations only)",
+    "owner": "Wilfred",
+    "location": "Blk 160 Lor 1 Toa Payoh #01-1576, Singapore 310160",
+    "phone": "9741 6587",
+    "halal": "NON-HALAL"
   },
   {
     "area": "South / South-West",
@@ -420,7 +556,28 @@
     "cuisine": "Chinese Cuisine",
     "owner": "Samuel Yik",
     "location": "VivoCity — 1 HarbourFront Walk #02-138",
-    "phone": "6376 9786"
+    "phone": "6376 9786",
+    "halal": "Not verified"
+  },
+  {
+    "area": "South / South-West",
+    "chapter": "Champions",
+    "brand": "The White Tiffin Fusion",
+    "cuisine": "Local / Fusion",
+    "owner": "Raymond Tan",
+    "location": "Hotel Faber Park — 448 Telok Blangah Rd #01-02",
+    "phone": "8060 5512",
+    "halal": "Not verified"
+  },
+  {
+    "area": "South / South-West",
+    "chapter": "Nexus",
+    "brand": "Treasure Paradise",
+    "cuisine": "Chinese Cuisine",
+    "owner": "Lydia Chang",
+    "location": "SAFRA Mount Faber — 2 Telok Blangah Way #01-09",
+    "phone": "8927 4494",
+    "halal": "Not verified"
   },
   {
     "area": "South / South-West",
@@ -429,16 +586,8 @@
     "cuisine": "Boutique Café / Nails",
     "owner": "Lynn Goh",
     "location": "Alexandra Central Mall — 321 Alexandra Rd #03-24, Singapore 159971",
-    "phone": "8925 5713"
-  },
-  {
-    "area": "Location TBC",
-    "chapter": "Elite",
-    "brand": "Vietnamese Restaurant",
-    "cuisine": "Vietnamese",
-    "owner": "Crystal",
-    "location": "Brand / location not provided",
-    "phone": "Need restaurant name"
+    "phone": "8925 5713",
+    "halal": "Not verified"
   },
   {
     "area": "Location TBC",
@@ -447,6 +596,17 @@
     "cuisine": "Chinese Zi Char",
     "owner": "Shi Liang Tan",
     "location": "Location not confirmed",
-    "phone": "Need exact outlet"
+    "phone": "Need exact outlet",
+    "halal": "Not verified"
+  },
+  {
+    "area": "Location TBC",
+    "chapter": "Elite",
+    "brand": "Vietnamese Restaurant",
+    "cuisine": "Vietnamese",
+    "owner": "Crystal",
+    "location": "Brand / location not provided",
+    "phone": "Need restaurant name",
+    "halal": "Not verified"
   }
 ]
