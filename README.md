@@ -1,53 +1,58 @@
-[Uploading RE# BNI F&B Directory (v3b — attribution credits + halal status)
+[README.md](https://github.com/user-attachments/files/30975638/README.md)[Uploading READM# BNI F&B Directory (v3c — 5 Senses Bistro re-added + named secondary contacts)
 
-## What changed from the last zip
+## What changed from the last zip (v3b)
 
-- Added attribution credits, placed under the page title (not in a footer):
-  - **Built by** Moses Simon (Momo) — AI Educator · Momo DigiLearn · BNI
-    Signature, with a WhatsApp link to +65 9670 1344
-  - **Content collated by** Alessandra Ong — Marketing Consultant, linked to
-    [arescollective.co](https://arescollective.co) · BNI Signature, with a
-    WhatsApp link to +65 9002 2519
-- Everything from the previous package is unchanged: halal tags, Halal Only
-  toggle, multi-outlet brand grouping, Google Maps links, tel:/WhatsApp
-  contact parsing.
+- **Re-added 5 Senses Bistro** (Alliance chapter, West area) — this brand was
+  present in your first two PDFs but was missing entirely from the "Full
+  Master List / Halal Updated" PDF's WEST section. Not a duplicate; it was a
+  gap in that source document.
+- Added a second named contact for that listing — **Cheng Yuan, 9685 7276**
+  — alongside the original contact (Kah Yung Chong, 6339 1435).
+- `phone` parsing now supports a **named secondary contact** format:
+  `"<number> / <Name> <number>"` → renders the primary tel/WhatsApp link,
+  then `· <Name> <number> [WhatsApp]` for the second person. This is
+  separate from the existing bare "alt WhatsApp number" format (still
+  supported, e.g. Mutiara Seafood's `"<number> / WhatsApp <alt>"`).
+- Now 62 entries total.
 
-**Double-check `arescollective.co` is actually Alessandra's real domain** —
-I linked it based on the company name you gave me, not a URL you confirmed.
-If it's wrong (different domain, subdomain, or she doesn't have a site live
-yet), the link lives in `index.html` inside the `#topCredits` block — one
-line to fix.
+## Still open (unchanged from before, not blocking)
 
-## ⚠️ Still-unresolved data conflict (carried over from before)
-
-**Givers → D'Legacy** has two contradictory versions in the source data —
-owner "Claudine" (kept, currently live) vs. owner "Daryl Nonis" with a
-different halal status. See `data.json`, search "D'Legacy". Not blocking
-deployment, but worth fixing once you know which is correct.
+- **Givers → D'Legacy** conflict (Claudine vs. Daryl Nonis as owner) —
+  still unresolved, still shipped with Claudine's version. Search "D'Legacy"
+  in `data.json`.
+- `arescollective.co` in the footer credits is still an assumed URL, not
+  confirmed as Alessandra's actual domain.
 
 ## Deploying this update
 
 Same repo, same Vercel project. 4 files changed: `index.html`, `style.css`,
-`app.js`, `data.json`. (`vercel.json` and `.gitignore` untouched.)
+`app.js`, `data.json`.
 
 ### Option A — GitHub web UI
 1. Open your repo on github.com
 2. For each of the 4 changed files: click it → pencil (edit) icon → select
    all, paste in the new version → commit to `main`
-3. Vercel redeploys automatically within ~30–60 seconds of your last commit
+3. Vercel redeploys automatically within ~30–60 seconds
 
 ### Option B — Git CLI
 ```bash
-cd bni-fnb-directory        # your existing local clone
+cd bni-fnb-directory
 git pull
-# replace index.html, style.css, app.js, data.json with the ones here
+# replace index.html, style.css, app.js, data.json
 git add index.html style.css app.js data.json
-git commit -m "v3b: attribution credits (Momo + Alessandra) at top of page"
+git commit -m "v3c: re-add 5 Senses Bistro + named secondary contact support"
 git push
 ```
 
-## Updating data going forward
+## Adding a named secondary contact to any listing going forward
 
-Still `data.json` only for regular edits — same shape as before (`area`,
-`chapter`, `brand`, `cuisine`, `owner`, `location`, `phone`, `halal`).
-ADME.md…]()
+In `data.json`, format the `phone` field as:
+
+```json
+"phone": "6339 1435 / Cheng Yuan 9685 7276"
+```
+
+Primary number always comes first. Add `/ <Name> <number>` for each
+additional named contact — no code change needed, this is now a supported
+data pattern.
+E.md…]()
