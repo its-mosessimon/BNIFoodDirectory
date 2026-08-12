@@ -12,11 +12,18 @@ Fill in:
   - RAW_DATA_URL: your repo's raw data.json URL
 """
 
+import os
 import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+if not BOT_TOKEN:
+    raise RuntimeError(
+        "BOT_TOKEN environment variable not set. "
+        "Set it on your host (or in a local .env, gitignored) — never hardcode it in this file."
+    )
+
 RAW_DATA_URL = "https://raw.githubusercontent.com/<your-username>/<repo-name>/main/data.json"
 
 # simple in-memory cache so every message doesn't hit GitHub —
@@ -70,7 +77,7 @@ async def halal(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "BNI F&B Directory bot\n\n"
+        "BNI F&B Directory bot (@BNIFood_bot)\n\n"
         "/search <term> — search by area, brand, cuisine, chapter, or owner\n"
         "/halal — list all HALAL / MUSLIM-OWNED entries"
     )
