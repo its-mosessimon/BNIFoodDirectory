@@ -38,6 +38,18 @@ function buildPhoneHTML(phone){
       html += ` <span class="phone-sep">·</span> <a class="phone-link whatsapp" href="https://wa.me/65${primaryDigits}" target="_blank" rel="noopener">WhatsApp</a>`;
     }
     segments.slice(1).forEach(seg=>{
+      // named contact, e.g. "Cheng Yuan 9685 7276" — but not a bare "WhatsApp <number>" segment
+      const named = seg.match(/^([A-Za-z][A-Za-z.\s]*?)\s+([\d\s\-]{7,})$/);
+      if(named && !/^whatsapp$/i.test(named[1].trim())){
+        const name = named[1].trim();
+        const numDigits = named[2].replace(/[\s-]/g,'');
+        const numIsMobile = /^[89]/.test(numDigits);
+        html += ` <span class="phone-sep">·</span> <b>${name}</b> <a class="phone-link" href="tel:+65${numDigits}">${named[2].trim()}</a>`;
+        if(numIsMobile){
+          html += ` <a class="phone-link whatsapp" href="https://wa.me/65${numDigits}" target="_blank" rel="noopener">WhatsApp</a>`;
+        }
+        return;
+      }
       const altDigits = seg.replace(/whatsapp/i,'').replace(/[\s-]/g,'').trim();
       if(altDigits){
         html += ` <span class="phone-sep">·</span> <a class="phone-link whatsapp" href="https://wa.me/65${altDigits}" target="_blank" rel="noopener">Alt WhatsApp</a>`;
