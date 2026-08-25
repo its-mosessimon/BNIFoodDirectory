@@ -200,6 +200,16 @@
     "halal": "Not verified"
   },
   {
+    "area": "Central / City",
+    "chapter": "Elite",
+    "brand": "YENNEY Restaurant",
+    "cuisine": "Vietnamese",
+    "owner": "Crystal Nguyen (Director)",
+    "location": "Marina One — B2-50, East Tower, Singapore 018935",
+    "phone": "9326 2779",
+    "halal": "Not verified"
+  },
+  {
     "area": "West",
     "chapter": "Alliance",
     "brand": "5 Senses Bistro",
@@ -607,16 +617,6 @@
     "owner": "Shi Liang Tan",
     "location": "Location not confirmed",
     "phone": "Need exact outlet",
-    "halal": "Not verified"
-  },
-  {
-    "area": "Location TBC",
-    "chapter": "Elite",
-    "brand": "Vietnamese Restaurant",
-    "cuisine": "Vietnamese",
-    "owner": "Crystal",
-    "location": "Brand / location not provided",
-    "phone": "Need restaurant name",
     "halal": "Not verified"
   }
 ]
